@@ -8,9 +8,9 @@ This project provides a Python command-line interpreter for managing Airbnb data
 The command interpreter serves as the interface for interacting with the Airbnb clone allowing the user to create, retrieve, update, and delete  objects. 
 
 **Getting started**
+- Clone this repository using Git:
+  ```bash
+  git clone https://github.com/yourusername/alu-AirBnB_clone.git
 
-**1. Installation:**
-
-Clone this repository using Git:
-```bash
-git clone https://github.com/yourusername/your-repository.git
+- Navigate to the project directory:
+   cd alu-AirBnB_clone
