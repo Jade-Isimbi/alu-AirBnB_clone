@@ -23,3 +23,30 @@ The command interpreter serves as the interface for interacting with the Airbnb 
   From the project directory, execute:
   ```bash
   ./console.py
+
+3. **How to use the command interpreter**
+
+   Once the command interpreter is running, you can use the following commands:
+
+  - create <class>: Create a new instance of the specified class (e.g., create User).
+  - show <class> <id>: Display information about the specified instance (e.g., show User 1234).
+  - update <class> <id> <attribute> "<value>": Update the specified attribute of the specified instance (e.g., update User 1234 email "example@example.com").
+  - destroy <class> <id>: Delete the specified instance (e.g., destroy User 1234).
+  - all <class>: Display information about all instances of the specified class (e.g., all User).
+
+4. **Examples**
+
+  Here are some examples of how to use the command interpreter:
+
+  - create User email="example@example.com" password="password"
+  - show User 1234
+  - update User 1234 email "new@example.com"
+  - destroy User 1234
+  - all User
+
+5. **Authors**
+   
+   - Aimee Gloire IMARAGAHINDA <i.aimeegloi@alustudent.com>
+   - Jade ISIMBI TUZINDE <j.isimbituz1@alustudent.com>
+
+
